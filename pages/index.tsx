@@ -23,7 +23,7 @@ import LoadingDots from '@/components/ui/LoadingDots';
     {
       messages: [
         {
-          message: 'Greetings, UC Berkeley engineer 🐻. Ask me anything about the EE16B website. I am trained on ~ The Corpus ~ which includes: \n Syllabus, Course Notes, and past semesters iterations of course websites. Coming soon: all past exams and worksheets. I am here to serve you and answer your queries to the best of my ability. Stay on topic please; being confined to this website, I cannot play games!',
+          message: 'Greetings, UC Berkeley engineer 🐻. \n I am trained on all lectures from the Spring 2023 iteration of EE16B. \n Coming soon: past exams, labs, worksheets. \n I may make mistakes so please treat gently. \n I am here to serve you and answer your queries to the best of my ability. \n Stay on topic please!',
           type: 'apiMessage',
         },
       ],
@@ -124,7 +124,7 @@ import LoadingDots from '@/components/ui/LoadingDots';
             EE16B AI Chatbot
           </h1>
           <h2 className="text-1xl font-italic leading-[1.1] tracking-tighter text-center">
-            Trained on <i>The Corpus</i>  
+            Trained on <i>All Spring 2023 Lectures</i>  
           </h2>
           <main className={styles.main}>
             <div className={styles.cloud}>
