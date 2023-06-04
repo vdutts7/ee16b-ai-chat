@@ -11,13 +11,11 @@ export default async function handler(
 ) {
   const { question, history } = req.body;
 
-  if (!question) {
-    return res.status(400).json({ message: 'No question in the request' });
-  }
-  // OpenAI recommends replacing newlines with spaces for best results
+  // if (!question) {
+  //   return res.status(400).json({ message: 'No question in the request' });
+  // }
   const sanitizedQuestion = question.trim().replaceAll('\n', ' ');
 
-  /* create vectorstore*/
   const vectorStore = await SupabaseVectorStore.fromExistingIndex(
     supabaseClient,
     new OpenAIEmbeddings(),

@@ -224,7 +224,7 @@ import LoadingDots from '@/components/ui/LoadingDots';
           <div>
               Chatbot answers are provided based on 'The Corpus' of text data available on the  
               <u><i><a href="https://eecs16b.org/"> EE16B Course Website</a></i></u> Demo built by
-              <a href="https://twitter.com/vdutts7/"> <u>Vivek D. </u></a>Full project can be found <u><a href="https://github.com/vdutts7/ee16b-ai-chat/">here.</a></u>
+              <a href="https://twitter.com/vdutts7/"> <u>Vivek D. </u></a>Full project can be found <u><a href="https://github.com/vdutts7/ee16b-ai-chat">here.</a></u>
           </div>
         </footer>
       </Layout>
