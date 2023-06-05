@@ -79,7 +79,7 @@ Inside the `config` folder is the `transcripts` folder with all lectures as .txt
 Manually run the `embed-scripts.ipynb` notebook in the `scripts` folder OR run the package script from terminal:
 
 ```
-`npm run embed`
+npm run embed
 ```
 
 This is a one-time process and depending on size of data you wish to upsert, it can take a few minutes. Check Supabase database to see updates reflected in the rows of your table there.
