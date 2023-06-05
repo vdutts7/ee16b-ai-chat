@@ -15,7 +15,7 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#about-the-project">About</a>
+      <a href="#about">About</a>
       <ul>
         <li><a href="#how-to-build">How to Build</a></li>
             <ul>
@@ -26,10 +26,10 @@
                 <li>Run the app</li>
                 <li>Customizations</li>
             </ul>
-        <li><a href="#built-with">Built With/a></li>
+        <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
-    <li><a href="#contact">Contact</a></li>
+      <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
 
@@ -42,7 +42,9 @@ Trained on [official course website](https://eecs16b.org/) • UC Berkeley • E
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p> 
 
-## How to Build (macOS, adjust accordingly for Windows / Linux)
+## How to Build 
+
+_Note: macOS version, adjust accordingly for Windows / Linux_
 
 ### Initial setup
 
