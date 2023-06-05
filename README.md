@@ -146,7 +146,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-<u>me @ vdutts7.com</u>
+`me@vdutts7.com` 
 
 Project Link: [https://github.com/vdutts7/ee16b-ai-chat](https://github.com/vdutts7/ee16b-ai-chat)
 
