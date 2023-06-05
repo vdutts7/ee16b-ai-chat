@@ -5,7 +5,7 @@
   </a>
   <h3 align="center">EE16B AI Chat</h3>
   <p align="center">
-    EE16B AI Chatbot ~ trained on the official course website (link in README.md)
+    EE16B AI Chatbot ~ trained on the official course website
   </p>
 </div>
 
