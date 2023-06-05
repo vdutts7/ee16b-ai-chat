@@ -64,11 +64,13 @@ Check out [Supabase](https://supabase.com/) on how to create a new project, data
 
 **IMPORTANT: Verify that `.gitignore` contains `.env` in it.**
 
-### Setting up Supabase environment
+
+### Prepare Supabase environment
 
 I used Supabase as my vectorstore. Alternatives include: FAISS, Chroma, Nuclei, Pinecone, Milvus, and many more you can research about. Most are free or open-source. 
 
 Copy paste contents of `schema.sql` in SQL editor of Supabase. Ensure the `documents` table in Supabase's database that is created matches and corresponds with local file's `match_documents` function.
+
 
 ### Embedding & upserting data into Supabase vectorstore
 
@@ -81,6 +83,7 @@ Manually run the `embed-scripts.ipynb` notebook in the `scripts` folder OR run t
 ```
 
 This is a one-time process and depending on size of data you wish to upsert, it can take a few minutes. Check Supabase database to see updates reflected in the rows of your table there.
+
 
 ### Behind-the-scenes: script explained
 
@@ -100,6 +103,7 @@ This code performs the following:
 - Uses a `RecursiveCharacterTextSplitter` to split the lecture text into chunks. This allows breaking the text into manageable pieces for processing. Chunk size and chunk overlap can be changed according to preference and basically control the amount of specificity. A larger chunk size and smaller overlap will result in fewer, broader chunks, while a smaller chunk size and larger overlap will produce more, narrower chunks.
 - Creates OpenAI `text-embedding-ada-002` embeddings. This makes several vectors of 1536 dimensionality optimized for cosine similarity searches. These vectors are then combined with the metadata in the JSON files along with other lecture-specific info and upserted to the database as vector embeddings in row tabular format i.e. a `SupabaseVectorStore`.
 
+
 ### Run the app
 
 Run app and verify everything went smoothly:
@@ -109,6 +113,7 @@ Run app and verify everything went smoothly:
 ```
 
 Should be able to type and ask questions now as you will any other chatbot.
+
 
 ### Customizations
 
