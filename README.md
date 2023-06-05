@@ -2,7 +2,7 @@
 <br />
 <div align="center">
     <img src="https://github.com/vdutts7/ee16b-ai-chat/blob/main/public/ee16b.png" alt="Logo" width="80" height="80">
-    <img src="https://github.com/vdutts7/ee16b-ai-chat/blob/main/public/UC-Berkeley-Emblem.png" alt="Logo" width="80" height="80">
+    <img src="https://github.com/vdutts7/ee16b-ai-chat/blob/main/public/UC-Berkeley-Emblem.png" alt="Logo" width="140" height="80">
   </a>
   <h3 align="center">EE16B AI Chat</h3>
   <p align="center">
@@ -31,7 +31,7 @@
 <!-- ABOUT -->
 ## About
 
-Trained on [main course website](https://eecs16b.org/) | UC Berkeley | EE16B: Designing Information Devices and Systems II | Spring 2023 
+Trained on [main course website](https://eecs16b.org/) • UC Berkeley • EE16B: Designing Information Devices and Systems II • Spring 2023 
 
 ## API Keys (free versions)
 Get OpenAI API key here: https://platform.openai.com/account/api-keys
