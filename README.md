@@ -46,7 +46,7 @@
 * [![Typescript][Typescript]][Typescript-url]
 * [![Tailwind CSS][TailwindCSS]][TailwindCSS-url]
 * [![Langchain][Langchain]][Langchain-url]
-* [![OpenAI GPT-3][OpenAI]][OpenAI-url]
+* [![OpenAI ada-002, GPT-3][OpenAI]][OpenAI-url]
 * [![Supabase][Supabase]][Supabase-url]
 * [![PostgreSQL][PostgreSQL]][PostgreSQL-url]
 
@@ -81,7 +81,7 @@ Project Link: [https://github.com/vdutts7/stanchat](https://github.com/vdutts7/s
 [Next]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
 
-[React]: https://img.shields.io/badge/Langchain-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[React]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
 
 [Langchain]: https://img.shields.io/badge/🦜🔗Langchain-DD0031?style=for-the-badge&color=<brightgreen>
