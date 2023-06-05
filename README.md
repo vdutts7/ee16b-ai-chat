@@ -46,7 +46,7 @@
 * [![Typescript][Typescript]][Typescript-url]
 * [![Tailwind CSS][TailwindCSS]][TailwindCSS-url]
 * [![Langchain][Langchain]][Langchain-url]
-* [![OpenAI ada-002, GPT-3][OpenAI]][OpenAI-url]
+* [![OpenAI][OpenAI]][OpenAI-url]
 * [![Supabase][Supabase]][Supabase-url]
 * [![PostgreSQL][PostgreSQL]][PostgreSQL-url]
 
@@ -93,7 +93,7 @@ Project Link: [https://github.com/vdutts7/stanchat](https://github.com/vdutts7/s
 [TailwindCSS]: https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=skyblue&color=0A192F
 [TailwindCSS-url]: https://tailwindcss.com/
 
-[OpenAI]: https://img.shields.io/badge/OpenAI%20GPT--3-0058A0?style=for-the-badge&logo=openai&logoColor=white&color=black
+[OpenAI]: https://img.shields.io/badge/OpenAI%20ada--002%20GPT--3-0058A0?style=for-the-badge&logo=openai&logoColor=white&color=black
 [OpenAI-url]: https://openai.com/
 
 [TypeScript]: https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white
