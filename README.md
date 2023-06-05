@@ -58,14 +58,13 @@ OPENAI_API_KEY=""
 NEXT_PUBLIC_SUPABASE_URL=""
 NEXT_PUBLIC_SUPABASE_ANON_KEY=""
 SUPABASE_SERVICE_ROLE_KEY=""
-
 ```
 
 Check out [OpenAI](https://help.openai.com/en/articles/4936850-where-do-i-find-my-secret-api-key) on how to get an API key
 
 Check out [Supabase](https://supabase.com/) on how to create a new project, database, and get keys from settings all found in [docs instructions](https://supabase.com/docs)
 
-**IMPORTANT: Verify that `.gitignore` contains `.env` in it.**
+_**IMPORTANT: Verify that `.gitignore` contains `.env` in it.**_
 
 
 ### Prepare Supabase environment
