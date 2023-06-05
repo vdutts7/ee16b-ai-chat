@@ -45,7 +45,7 @@
 * [![React][React]][React-url]
 * [![Typescript][Typescript]][Typescript-url]
 * [![Tailwind CSS][TailwindCSS]][TailwindCSS-url]
-* [![pyTorch][pyTorch]][pyTorch-url]
+* [![Langchain][Langchain]][Langchain-url]
 * [![OpenAI GPT-3][OpenAI]][OpenAI-url]
 * [![Supabase][Supabase]][Supabase-url]
 * [![PostgreSQL][PostgreSQL]][PostgreSQL-url]
@@ -84,7 +84,7 @@ Project Link: [https://github.com/vdutts7/stanchat](https://github.com/vdutts7/s
 [React]: https://img.shields.io/badge/Langchain-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
 
-[Langchain]: https://img.shields.io/badge/🦜🔗Langchain-DD0031?style=for-the-badge&logo=angular&logoColor=white
+[Langchain]: https://img.shields.io/badge/🦜🔗Langchain-DD0031&color=<brightgreen>
 [Langchain-url]: https://langchain.com/
 
 [Svelte]: https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00
