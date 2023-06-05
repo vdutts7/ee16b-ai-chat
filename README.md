@@ -11,27 +11,21 @@
 </div>
 
 <!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
+  <summary>**Table of Contents**</summary>
   <ol>
-    <li>
-      <a href="#about">About</a>
-      <ul>
-        <li><a href="#how-to-build">How to Build</a></li>
-            <ul>
-                <li>Initial setup</li>
-                <li>Prepare Supabase environment</li>
-                <li>Embedding & upserting data into Supabase vectorstore</li>
-                <li>Behind-the-scenes: script explained</li>
-                <li>Run the app</li>
-                <li>Customizations</li>
-            </ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-      <li><a href="#contact">Contact</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#how-to-build">How to Build</a></li>
+        <ul>
+             <li>Initial setup</li>
+             <li>Prepare Supabase environment</li>
+             <li>Embedding & upserting data into Supabase vectorstore</li>
+             <li>Behind-the-scenes: script explained</li>
+             <li>Run the app</li>
+             <li>Customizations</li>
+        </ul>
+    <li><a href="#built-with">Built With</a></li>
+    <li><a href="#contact">Contact</a></li>
   </ol>
-</details>
 
 
 
