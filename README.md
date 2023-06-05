@@ -17,7 +17,7 @@
     <li>
       <a href="#about-the-project">About</a>
       <ul>
-        <li><a href="#built-with">How to Build/a></li>
+        <li><a href="#how-to-build">How to Build</a></li>
             <ul>
                 <li>Initial setup</li>
                 <li>Prepare Supabase environment</li>
