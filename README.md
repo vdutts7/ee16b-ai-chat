@@ -6,7 +6,7 @@
   </a>
   <h3 align="center">EE16B AI Chat</h3>
   <p align="center">
-    EE16B AI Chatbot ~ trained on the official course website
+    EE16B AI Chatbot ~ trained on the [official course website](https://eecs16b.org/)
   </p>
 </div>
 
@@ -32,7 +32,9 @@
 <!-- ABOUT -->
 ## About
 
-Trained on [official course website](https://eecs16b.org/) • UC Berkeley • EE16B: Designing Information Devices and Systems II • Spring 2023 
+More natural way to help students study for exams, review weekly content, and customize learnings to recreate similar problems etc to their prefernce. Trained on all Spring 2023 lectures. EE16B students, staff, and more generally anyone can clone and use this repo and adjust to their liking.
+
+_UC Berkeley • EE16B: Designing Information Devices and Systems II • Spring 2023_ 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p> 
 
