@@ -11,7 +11,7 @@
 </div>
 
 <!-- TABLE OF CONTENTS -->
-  <summary>**Table of Contents**</summary>
+  <summary>Table of Contents</summary>
   <ol>
     <li><a href="#about">About</a></li>
     <li><a href="#how-to-build">How to Build</a></li>
