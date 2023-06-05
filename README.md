@@ -35,9 +35,9 @@ Trained on [main course website](https://eecs16b.org/) • UC Berkeley • EE16B
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p> 
 
-### How to Build
+### How to Build (macOS, adjust accordingly for Windows / Linux)
 
-Clone repo & install packages
+Clone this repo & install packages using pnpm
 
 ```
 git clone [https://github.com/vdutts7/ee16b-ai-chat]
@@ -47,32 +47,34 @@ pnpm install
 
 ### Setup `.env` file
 
-Copy `.env.local.example` into `.env` and make sure it looks like this:
+Copy `.env.local.example` into `.env` which should look like this (order doesn't matter):
 
 ```
-OPENAI_API_KEY=
+OPENAI_API_KEY=""
 
-NEXT_PUBLIC_SUPABASE_URL=
-NEXT_PUBLIC_SUPABASE_ANON_KEY=
-SUPABASE_SERVICE_ROLE_KEY=
+NEXT_PUBLIC_SUPABASE_URL=""
+NEXT_PUBLIC_SUPABASE_ANON_KEY=""
+SUPABASE_SERVICE_ROLE_KEY=""
 
 ```
 
-Check out [openai](https://help.openai.com/en/articles/4936850-where-do-i-find-my-secret-api-key) on how to get an API key
-Check out [supabase](https://supabase.com/) on how to create a new project, database, and get keys from settings all found in [docs instructions](https://supabase.com/docs)
+Check out [OpenAI](https://help.openai.com/en/articles/4936850-where-do-i-find-my-secret-api-key) on how to get an API key
 
-**IMPORTANT: Verify that `.gitignore file` contains `.env` in it.**
+Check out [Supabase](https://supabase.com/) on how to create a new project, database, and get keys from settings all found in [docs instructions](https://supabase.com/docs)
 
-### Setting up Supabase environment vectorstore
-I used Supabase as vectorstore. Alternatives include: FAISS, Chroma, Nuclei, Pinecone, Milvus, and many more you can research about. Most are free or open-source. 
+**IMPORTANT: Verify that `.gitignore` contains `.env` in it.**
+
+### Setting up Supabase environment
+
+I used Supabase as my vectorstore. Alternatives include: FAISS, Chroma, Nuclei, Pinecone, Milvus, and many more you can research about. Most are free or open-source. 
 
 Copy paste contents of `schema.sql` in SQL editor of Supabase. Ensure the `documents` table in Supabase's database that is created matches and corresponds with local file's `match_documents` function.
 
 ### Embedding & upserting data into Supabase vectorstore
 
-Inside the `config` folder is the `transcripts` folder with all lectures as .txt files and the corresponding .json files for the metadatas. Change according to preferences. `pageContent` and `metadata` are by default stored in Supabase.
+Inside the `config` folder is the `transcripts` folder with all lectures as .txt files and the corresponding JSON files for the metadatas. .txt files were scraped from the lecture recordings separately ahead of time but OpenAI's Whisper is a great package for Speech-to-Text transcription). Change according to preferences. `pageContent` and `metadata` are by default stored in Supabase along with an int8 type for the 'id' column.
 
-Manually run the `scripts/embed-scripts.ipynb` cell-by-cell OR run the package script from terminal:
+Manually run the `embed-scripts.ipynb` notebook in the `scripts` folder OR run the package script from terminal:
 
 ```
 `npm run embed`
@@ -84,16 +86,19 @@ This is a one-time process and depending on size of data you wish to upsert, it 
 
 This code performs the following:
 
-- Installs the supabase Python library using pip. This allows interaction with a Supabase database.
+- Installs the `supabase` Python library using `pip`. This allows interaction with a Supabase database.
 - Loads various libraries:
-    supabase - For interacting with Supabase
-    langchain - For text processing and vectorization
-    json - For loading JSON metadata files
-- Loads the Supabase URL and API key from environment variables. This is used to create a supabase_client to connect to the Supabase database.
+
+    `supabase` - For interacting with Supabase
+    
+    `langchain` - For text processing and vectorization
+
+    `json` - For loading JSON metadata files
+
+- Loads the Supabase URL and API key from `.env`. This is used to create a `supabase_client` to connect to the Supabase database.
 - Loads text data from .txt lecture transcripts and JSON metadata files.
-- Uses a RecursiveCharacterTextSplitter to split the lecture text into chunks.
-- Loads the OpenAI API key from an environment variable.
-- Creates OpenAI `text-embedding-ada-002` embeddings using the OpenAI API key. This makes several vectors of 1536 dimensionality optimized for cosine similarity searches. These vectors are then combined with the metadata in the .json files along with other lecture-specific info and upserted to the database as vector embeddings in row tabular format i.e. a SupabaseVectorStore.
+- Uses a `RecursiveCharacterTextSplitter` to split the lecture text into chunks. This allows breaking the text into manageable pieces for processing. Chunk size and chunk overlap can be changed according to preference and basically control the amount of specificity. A larger chunk size and smaller overlap will result in fewer, broader chunks, while a smaller chunk size and larger overlap will produce more, narrower chunks.
+- Creates OpenAI `text-embedding-ada-002` embeddings. This makes several vectors of 1536 dimensionality optimized for cosine similarity searches. These vectors are then combined with the metadata in the JSON files along with other lecture-specific info and upserted to the database as vector embeddings in row tabular format i.e. a `SupabaseVectorStore`.
 
 ### Run the app
 
