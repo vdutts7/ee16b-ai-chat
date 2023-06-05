@@ -38,7 +38,7 @@ _UC Berkeley 🐻🔵🟡 • EE16B: Designing Information Devices and Systems I
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p> 
 
-## 🏗️ How to Build 
+## 💻 How to Build 
 
 _Note: macOS version, adjust accordingly for Windows / Linux_
 
