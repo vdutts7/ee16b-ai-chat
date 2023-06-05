@@ -17,12 +17,19 @@
     <li>
       <a href="#about-the-project">About</a>
       <ul>
+        <li><a href="#built-with">How to Build/a></li>
+            <ul>
+                <li>Initial setup</li>
+                <li>Prepare Supabase environment</li>
+                <li>Embedding & upserting data into Supabase vectorstore</li>
+                <li>Behind-the-scenes: script explained</li>
+                <li>Run the app</li>
+                <li>Customizations</li>
+            </ul>
         <li><a href="#built-with">Built With/a></li>
       </ul>
     </li>
-    <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
@@ -31,11 +38,13 @@
 <!-- ABOUT -->
 ## About
 
-Trained on [main course website](https://eecs16b.org/) • UC Berkeley • EE16B: Designing Information Devices and Systems II • Spring 2023 
+Trained on [official course website](https://eecs16b.org/) • UC Berkeley • EE16B: Designing Information Devices and Systems II • Spring 2023 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p> 
 
-### How to Build (macOS, adjust accordingly for Windows / Linux)
+## How to Build (macOS, adjust accordingly for Windows / Linux)
+
+### Initial setup
 
 Clone this repo & install packages using pnpm
 
@@ -44,8 +53,6 @@ git clone [https://github.com/vdutts7/ee16b-ai-chat]
 cd ee16b-ai-chat
 pnpm install
 ```
-
-### Setup `.env` file
 
 Copy `.env.local.example` into `.env` which should look like this (order doesn't matter):
 
@@ -131,14 +138,6 @@ Edit prompt template in `utils/makechain.ts` to fine-tune and add greater contro
 * [![OpenAI][OpenAI]][OpenAI-url]
 * [![Supabase][Supabase]][Supabase-url]
 * [![Tailwind CSS][TailwindCSS]][TailwindCSS-url]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
