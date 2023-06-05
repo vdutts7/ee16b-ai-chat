@@ -17,7 +17,7 @@
     <li>
       <a href="#about-the-project">About</a>
       <ul>
-        <li><a href="#built-with">Tools/Skills Used</a></li>
+        <li><a href="#built-with">Built With/a></li>
       </ul>
     </li>
     <li><a href="#license">License</a></li>
@@ -33,18 +33,88 @@
 
 Trained on [main course website](https://eecs16b.org/) • UC Berkeley • EE16B: Designing Information Devices and Systems II • Spring 2023 
 
-## API Keys (free versions)
-Get OpenAI API key here: https://platform.openai.com/account/api-keys
-
-How to get your Supabase API keys here: https://supabase.com/docs/guides/api/api-keys
-
-
-
-
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p> 
 
-### Built With
+### How to Build
+
+Clone repo & install packages
+
+```
+git clone [https://github.com/vdutts7/ee16b-ai-chat]
+cd ee16b-ai-chat
+pnpm install
+```
+
+### Setup `.env` file
+
+Copy `.env.local.example` into `.env` and make sure it looks like this:
+
+```
+OPENAI_API_KEY=
+
+NEXT_PUBLIC_SUPABASE_URL=
+NEXT_PUBLIC_SUPABASE_ANON_KEY=
+SUPABASE_SERVICE_ROLE_KEY=
+
+```
+
+Check out [openai](https://help.openai.com/en/articles/4936850-where-do-i-find-my-secret-api-key) on how to get an API key
+Check out [supabase](https://supabase.com/) on how to create a new project, database, and get keys from settings all found in [docs instructions](https://supabase.com/docs)
+
+**IMPORTANT: Verify that `.gitignore file` contains `.env` in it.**
+
+### Setting up Supabase environment vectorstore
+I used Supabase as vectorstore. Alternatives include: FAISS, Chroma, Nuclei, Pinecone, Milvus, and many more you can research about. Most are free or open-source. 
+
+Copy paste contents of `schema.sql` in SQL editor of Supabase. Ensure the `documents` table in Supabase's database that is created matches and corresponds with local file's `match_documents` function.
+
+### Embedding & upserting data into Supabase vectorstore
+
+Inside the `config` folder is the `transcripts` folder with all lectures as .txt files and the corresponding .json files for the metadatas. Change according to preferences. `pageContent` and `metadata` are by default stored in Supabase.
+
+Manually run the `scripts/embed-scripts.ipynb` cell-by-cell OR run the package script from terminal:
+
+```
+`npm run embed`
+```
+
+This is a one-time process and depending on size of data you wish to upsert, it can take a few minutes. Check Supabase database to see updates reflected in the rows of your table there.
+
+### Behind-the-scenes: script explained
+
+This code performs the following:
+
+- Installs the supabase Python library using pip. This allows interaction with a Supabase database.
+- Loads various libraries:
+    supabase - For interacting with Supabase
+    langchain - For text processing and vectorization
+    json - For loading JSON metadata files
+- Loads the Supabase URL and API key from environment variables. This is used to create a supabase_client to connect to the Supabase database.
+- Loads text data from .txt lecture transcripts and JSON metadata files.
+- Uses a RecursiveCharacterTextSplitter to split the lecture text into chunks.
+- Loads the OpenAI API key from an environment variable.
+- Creates OpenAI `text-embedding-ada-002` embeddings using the OpenAI API key. This makes several vectors of 1536 dimensionality optimized for cosine similarity searches. These vectors are then combined with the metadata in the .json files along with other lecture-specific info and upserted to the database as vector embeddings in row tabular format i.e. a SupabaseVectorStore.
+
+### Run the app
+
+Run app and verify everything went smoothly:
+
+```
+`npm run dev'
+```
+
+Should be able to type and ask questions now as you will any other chatbot.
+
+### Customizations
+
+Change UI to your liking. 
+Edit prompt template in `utils/makechain.ts` to fine-tune and add greater control on bot's outputs.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- BUILT WITH -->
+## Built With
 * [![Next][Next]][Next-url]
 * [![Typescript][Typescript]][Typescript-url]
 * [![Langchain][Langchain]][Langchain-url]
@@ -61,7 +131,6 @@ How to get your Supabase API keys here: https://supabase.com/docs/guides/api/api
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- CONTACT -->
