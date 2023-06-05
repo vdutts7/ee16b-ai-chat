@@ -109,7 +109,7 @@ This code performs the following:
 Run app and verify everything went smoothly:
 
 ```
-`npm run dev'
+npm run dev
 ```
 
 Should be able to type and ask questions now as you will any other chatbot.
