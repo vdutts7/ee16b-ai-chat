@@ -3,6 +3,7 @@
 <div align="center">
     <img src="https://github.com/vdutts7/ee16b-ai-chat/blob/main/public/ee16b.png" alt="Logo" width="80" height="80">
     <img src="https://github.com/vdutts7/ee16b-ai-chat/blob/main/public/UC-Berkeley-Emblem.png" alt="Logo" width="140" height="80">
+    <img src="https://github.com/vdutts7/ee16b-ai-chat/blob/main/public/robot.png" alt="Logo" width="140" height="80">
   </a>
   <h3 align="center">EE16B AI Chat</h3>
   <p align="center">
