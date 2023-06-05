@@ -2,9 +2,7 @@
 <br />
 <div align="center">
     <img src="https://github.com/vdutts7/ee16b-ai-chat/blob/main/public/ee16b.png" alt="Logo" width="80" height="80">
-    <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Flogos-world.net%2Fuc-berkeley-logo%2F&psig=AOvVaw3RqudYq6jTC4KAe3zgqCkB&ust=1686080665436000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCMih2YryrP8CFQAAAAAdAAAAABAJ
-" alt="Logo" width="80" height="80">
-
+    <img src="https://github.com/vdutts7/ee16b-ai-chat/blob/main/public/UC-Berkeley-Emblem.png" alt="Logo" width="80" height="80">
   </a>
   <h3 align="center">EE16B AI Chat</h3>
   <p align="center">
