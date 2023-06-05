@@ -84,7 +84,7 @@ Project Link: [https://github.com/vdutts7/stanchat](https://github.com/vdutts7/s
 [React]: https://img.shields.io/badge/Langchain-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
 
-[Langchain]: https://img.shields.io/badge/🦜🔗Langchain-DD0031&color=<brightgreen>
+[Langchain]: https://img.shields.io/badge/🦜🔗Langchain-DD0031?style=for-the-badge&color=<brightgreen>
 [Langchain-url]: https://langchain.com/
 
 [Svelte]: https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00
