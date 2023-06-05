@@ -1,6 +1,6 @@
-# ee16b-ai-chat
+# EE16B-ai-chat
 
-Trained on [EE16B official course website, Spring 2023](https://eecs16b.org/)
+Trained on [main course website](https://eecs16b.org/) | UC Berkeley | EE16B: Designing Information Devices and Systems II | Spring 2023 
 
 ## API Keys (free versions)
 Get OpenAI API key here: https://platform.openai.com/account/api-keys
