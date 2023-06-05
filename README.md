@@ -11,7 +11,7 @@
 </div>
 
 <!-- TABLE OF CONTENTS -->
-## Table of Contents
+## 📖 Table of Contents
   <ol>
     <li><a href="#about">About</a></li>
     <li><a href="#how-to-build">How to Build</a></li>
@@ -30,15 +30,15 @@
 
 
 <!-- ABOUT -->
-## About
+## 📝 About
 
 More natural way to help students study for exams, review weekly content, and customize learnings to recreate similar problems etc to their prefernce. Trained on all Spring 2023 lectures. EE16B students, staff, and more generally anyone can clone and use this repo and adjust to their liking.
 
-_UC Berkeley • EE16B: Designing Information Devices and Systems II • Spring 2023_ 
+_UC Berkeley 🐻🔵🟡 • EE16B: Designing Information Devices and Systems II ⚙️ • Spring 2023_ 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p> 
 
-## How to Build 
+## 🏗️ How to Build 
 
 _Note: macOS version, adjust accordingly for Windows / Linux_
 
@@ -128,7 +128,7 @@ Edit prompt template in `utils/makechain.ts` to fine-tune and add greater contro
 
 
 <!-- BUILT WITH -->
-## Built With
+## 🔧 Built With
 * [![Next][Next]][Next-url]
 * [![Typescript][Typescript]][Typescript-url]
 * [![Langchain][Langchain]][Langchain-url]
@@ -140,7 +140,7 @@ Edit prompt template in `utils/makechain.ts` to fine-tune and add greater contro
 
 
 <!-- CONTACT -->
-## Contact
+## 👤 Contact
 
 `me@vdutts7.com` 
 
