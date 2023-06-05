@@ -1,19 +1,13 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="https://user-images.githubusercontent.com/63992417/234558139-716e29d2-6fc3-410b-9e7c-40ba5fee3d8c.png" alt="Logo" width="80" height="80">
+    <img src="https://github.com/vdutts7/ee16b-ai-chat/blob/main/public/ee16b.png" alt="Logo" width="80" height="80">
   </a>
-  
-  <h3 align="center">Stanchat</h3>
-
+  <h3 align="center">EE16B AI Chat</h3>
   <p align="center">
-    1-on-1 with your favorite celebrities.
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
-
+    EE16B AI Chatbot ~ trained on the official course website (link in README.md)
   </p>
 </div>
-
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -36,21 +30,26 @@
 <!-- ABOUT -->
 ## About
 
-▇▇▇▇▇▇▇▇▇▇▇▇
+Trained on [main course website](https://eecs16b.org/) | UC Berkeley | EE16B: Designing Information Devices and Systems II | Spring 2023 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+## API Keys (free versions)
+Get OpenAI API key here: https://platform.openai.com/account/api-keys
 
+How to get your Supabase API keys here: https://supabase.com/docs/guides/api/api-keys
+
+
+
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p> 
 
 ### Built With
-* [![React][React]][React-url]
+* [![Next][Next]][Next-url]
 * [![Typescript][Typescript]][Typescript-url]
-* [![Tailwind CSS][TailwindCSS]][TailwindCSS-url]
 * [![Langchain][Langchain]][Langchain-url]
 * [![OpenAI][OpenAI]][OpenAI-url]
 * [![Supabase][Supabase]][Supabase-url]
-* [![PostgreSQL][PostgreSQL]][PostgreSQL-url]
-
-TypeScript CSS PLpgSQL JavaScript OpenAIGPT Supabase
+* [![Tailwind CSS][TailwindCSS]][TailwindCSS-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -69,7 +68,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <u>me @ vdutts7.com</u>
 
-Project Link: [https://github.com/vdutts7/stanchat](https://github.com/vdutts7/stanchat)
+Project Link: [https://github.com/vdutts7/ee16b-ai-chat](https://github.com/vdutts7/ee16b-ai-chat)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -99,21 +98,11 @@ Project Link: [https://github.com/vdutts7/stanchat](https://github.com/vdutts7/s
 [TypeScript]: https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white
 [Typescript-url]: https://www.typescriptlang.org/
 
-[Firebase]: https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=yellow&color=blue
-[Firebase-url]: https://firebase.google.com/
+[Supabase]: https://img.shields.io/badge/Supabase%20pgvector-FFCA28?style=for-the-badge&logo=Supabase&logoColor=49E879&color=black
+[Supabase-url]: https://Supabase.com/
 
 [Weights and Biases]: https://img.shields.io/badge/Weights%20%26%20Biases-FFBE00?style=for-the-badge&logo=weightsandbiases&logoColor=black
 [wandb-url]: https://wandb.ai/site
 
 [PostgreSQL]: https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white
 [PostgreSQL-url]: https://www.postgresql.org/
-
-
-# EE16B-ai-chat
-
-Trained on [main course website](https://eecs16b.org/) | UC Berkeley | EE16B: Designing Information Devices and Systems II | Spring 2023 
-
-## API Keys (free versions)
-Get OpenAI API key here: https://platform.openai.com/account/api-keys
-
-How to get your Supabase API keys here: https://supabase.com/docs/guides/api/api-keys
