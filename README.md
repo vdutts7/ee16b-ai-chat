@@ -5,7 +5,7 @@
     <img src="https://github.com/vdutts7/ee16b-ai-chat/blob/main/public/UC-Berkeley-Emblem.png" alt="Logo" width="140" height="80">
     <img src="https://github.com/vdutts7/ee16b-ai-chat/blob/main/public/robot.png" alt="Logo" width="80" height="80">
   </a>
-  <h3 align="center">EE16B AI Chat</h3>
+  <h3 align="center">EE16B AI Chatbot</h3>
   <p align="center">
     EE16B AI Chatbot ~ trained on <a href="https://eecs16b.org/">official course website</a>
   </p>
