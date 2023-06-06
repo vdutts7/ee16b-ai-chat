@@ -118,25 +118,39 @@ Run app and verify everything went smoothly:
 npm run dev
 ```
 
-Should be able to type and ask questions now as you will any other chatbot.
+You should be able to type and ask questions now. Done ✅ 
 
+
+## Next steps
+
+### Deploy
+
+I used [Vercel](https://vercel.com/dashboard) as this was a small project.
+
+_Alternatives: Heroku, Firebase, AWS Elastic Beanstalk, DigitalOcean, etc._
 
 ### Customizations
 
-Change UI to your liking. 
-Edit prompt template in `utils/makechain.ts` to fine-tune and add greater control on bot's outputs.
+**UI/UX:** change to your liking. 
+
+**Bot behavior:** edit prompt template in `/utils/makechain.ts` to fine-tune and add greater control on the bot's outputs.
+
+**Data:** modify .txt files in `/config/transcripts` and main script in `/scripts/embed-script.ipynb`
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <!-- BUILT WITH -->
 ## 🔧 Built With
-* [![Next][Next]][Next-url]
-* [![Typescript][Typescript]][Typescript-url]
-* [![Langchain][Langchain]][Langchain-url]
-* [![OpenAI][OpenAI]][OpenAI-url]
-* [![Supabase][Supabase]][Supabase-url]
-* [![Tailwind CSS][TailwindCSS]][TailwindCSS-url]
+[![Next][Next]][Next-url]
+[![Typescript][Typescript]][Typescript-url]
+[![Langchain][Langchain]][Langchain-url]
+[![OpenAI][OpenAI]][OpenAI-url]
+[![Supabase][Supabase]][Supabase-url]
+[![Tailwind CSS][TailwindCSS]][TailwindCSS-url]
+[![Vercel][Vercel]][Vercel-url]
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -146,7 +160,7 @@ Edit prompt template in `utils/makechain.ts` to fine-tune and add greater contro
 
 `me@vdutts7.com` 
 
-🔗 Project Link: https://github.com/vdutts7/ee16b-ai-chat
+🔗 Project Link: `https://github.com/vdutts7/ee16b-ai-chat`
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -164,7 +178,7 @@ Edit prompt template in `utils/makechain.ts` to fine-tune and add greater contro
 [TailwindCSS]: https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=skyblue&color=0A192F
 [TailwindCSS-url]: https://tailwindcss.com/
 
-[OpenAI]: https://img.shields.io/badge/OpenAI%20ada--002%20GPT--3-0058A0?style=for-the-badge&logo=openai&logoColor=white&color=black
+[OpenAI]: https://img.shields.io/badge/OpenAI%20ada--002%20GPT--3-0058A0?style=for-the-badge&logo=openai&logoColor=white&color=4aa481
 [OpenAI-url]: https://openai.com/
 
 [TypeScript]: https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white
@@ -172,3 +186,6 @@ Edit prompt template in `utils/makechain.ts` to fine-tune and add greater contro
 
 [Supabase]: https://img.shields.io/badge/Supabase%20pgvector-FFCA28?style=for-the-badge&logo=Supabase&logoColor=49E879&color=black
 [Supabase-url]: https://Supabase.com/
+
+[Vercel]: https://img.shields.io/badge/Vercel-FFFFFF?style=for-the-badge&logo=Vercel&logoColor=white&color=black
+[Vercel-url]: https://Vercel.com/
