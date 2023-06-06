@@ -109,6 +109,8 @@ This code performs the following:
 - Uses a `RecursiveCharacterTextSplitter` to split the lecture text into chunks. This allows breaking the text into manageable pieces for processing. Chunk size and chunk overlap can be changed according to preference and basically control the amount of specificity. A larger chunk size and smaller overlap will result in fewer, broader chunks, while a smaller chunk size and larger overlap will produce more, narrower chunks.
 - Creates OpenAI `text-embedding-ada-002` embeddings. This makes several vectors of 1536 dimensionality optimized for cosine similarity searches. These vectors are then combined with the metadata in the JSON files along with other lecture-specific info and upserted to the database as vector embeddings in row tabular format i.e. a `SupabaseVectorStore`.
 
+![visualized-flow-chart](https://github.com/vdutts7/ee16b-ai-chat/assets/63992417/ba77f59b-c6b7-4dc4-862b-948f2c751be9)
+
 
 ### Run the app
 
