@@ -118,7 +118,7 @@ Run app and verify everything went smoothly:
 npm run dev
 ```
 
-You should be able to type and ask questions now. Done ✅ 
+Go to `http://localhost:3000`. You should be able to type and ask questions now. Done ✅ 
 
 
 ## Next steps
