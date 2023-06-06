@@ -33,7 +33,8 @@
 <!-- ABOUT -->
 ## 📝 About
 
-More natural way to help students study for exams, review weekly content, and customize learnings to recreate similar problems etc to their prefernce. Trained on all Spring 2023 lectures. EE16B students, staff, and more generally anyone can clone and use this repo and adjust to their liking.
+More natural way to help students study for exams, review weekly content, and customize learnings to recreate similar problems etc to their prefernce. Trained on all Spring 2023 lectures. EE16B students, staff, and more generally anyone can 
+and use this repo and adjust to their liking.
 
 _UC Berkeley 🐻🔵🟡 • EE16B: Designing Information Devices and Systems II ⚙️ • Spring 2023_ 
 
@@ -48,7 +49,7 @@ _Note: macOS version, adjust accordingly for Windows / Linux_
 Clone this repo & install packages using pnpm
 
 ```
-git clone [https://github.com/vdutts7/ee16b-ai-chat]
+git clone https://github.com/vdutts7/ee16b-ai-chat
 cd ee16b-ai-chat
 pnpm install
 ```
