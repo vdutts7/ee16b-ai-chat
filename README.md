@@ -129,7 +129,7 @@ npm run dev
 Go to `http://localhost:3000`. You should be able to type and ask questions now. Done ✅ 
 
 
-##🚀 Next steps
+## 🚀 Next steps
 
 ### Deploy
 
