@@ -11,12 +11,14 @@
   </p>
 </div>
 
+https://github.com/vdutts7/ee16b-ai-chat/blob/main/public/screen-recording.mp4
+
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
   <ol>
     <a href="#about">📝 About</a>
         <ul>
-        </ul>
+        </ul> 
     <a href="#how-to-build">💻 How to build</a>
         <ul>
             <li><a href="#initial-setup">Initial setup</a></li>
