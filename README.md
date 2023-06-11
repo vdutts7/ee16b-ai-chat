@@ -17,7 +17,7 @@
     <a href="#about">📝 About</a>
     <li><a href="#how-to-build">💻 How to Build</a></li>
         <ul>
-             <li>Initial setup</li>
+            <li><a href="#initial-setup">Initial setup</a></li>
              <li>Prepare Supabase environment</li>
              <li>Embedding & upserting data into Supabase vectorstore</li>
              <li>Behind-the-scenes: script explained</li>
