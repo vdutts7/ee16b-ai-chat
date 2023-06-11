@@ -12,7 +12,7 @@
 </div>
 
 https://github.com/vdutts7/ee16b-ai-chat/assets/63992417/c99157f7-a463-4a10-aeb5-83f161286c3d
-
+ 
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
   <ol>
