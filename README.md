@@ -12,20 +12,24 @@
 </div>
 
 <!-- TABLE OF CONTENTS -->
-## 📝 Table of Contents
+## Table of Contents
   <ol>
     <a href="#about">📝 About</a>
-    <li><a href="#how-to-build">💻 How to Build</a></li>
+    <a href="#how-to-build">💻 How to build</a>
         <ul>
             <li><a href="#initial-setup">Initial setup</a></li>
-             <li>Prepare Supabase environment</li>
-             <li>Embedding & upserting data into Supabase vectorstore</li>
-             <li>Behind-the-scenes: script explained</li>
-             <li>Run the app</li>
-             <li>Customizations</li>
+            <li><a href=#prepare-supabase-environment>Prepare Supabase environment</a></li>
+            <li><a href=#embed-and-upsert>Embed and upsert</a></li>
+            <li><a href=#technical-explanation>Technical explanation</a></li>
+            <li><a href=#run-app>Run app</a></li>
         </ul>
-    <li><a href="#built-with">Built With</a></li>
-    <li><a href="#contact">Contact</a></li>
+    <a href="#next-steps">➤ Next steps</a>
+        <ul>
+            <li><a href=#deploy>Deploy</a></li>
+            <li><a href=#customizations>Customizations</a></li>
+        </ul>
+    <a href="#tools-used">🔧 Tools used</a>
+    <a href="#contact">👤 Contact</a>
   </ol>
 
 
@@ -76,7 +80,7 @@ You should have already created a Supabase project to get your API keys. Inside 
 
 
 
-### Embedding & upserting data into Supabase vectorstore
+### Embed and upsert
 
 Inside the `config` folder is the `transcripts` folder with all lectures as .txt files and the corresponding JSON files for the metadatas. .txt files were scraped from the lecture recordings separately ahead of time but OpenAI's Whisper is a great package for Speech-to-Text transcription). Change according to preferences. `pageContent` and `metadata` are by default stored in Supabase along with an int8 type for the 'id' column.
 
@@ -89,7 +93,7 @@ npm run embed
 This is a one-time process and depending on size of data you wish to upsert, it can take a few minutes. Check Supabase database to see updates reflected in the rows of your table there.
 
 
-### Behind-the-scenes: script explained
+### Technical explanation
 
 This code performs the following:
 
