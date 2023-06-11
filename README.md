@@ -11,7 +11,9 @@
   </p>
 </div>
 
-https://github.com/vdutts7/ee16b-ai-chat/blob/main/public/screen-recording.mp4
+<div align="center">
+    ![ ](https://github.com/vdutts7/ee16b-ai-chat/blob/main/public/screen-recording.mp4)
+</div>
 
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
