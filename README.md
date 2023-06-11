@@ -12,10 +12,10 @@
 </div>
 
 <!-- TABLE OF CONTENTS -->
-## 📖 Table of Contents
+## 📝 Table of Contents
   <ol>
-    <li><a href="#about">About</a></li>
-    <li><a href="#how-to-build">How to Build</a></li>
+    <a href="#about">📝 About</a>
+    <li><a href="#how-to-build">💻 How to Build</a></li>
         <ul>
              <li>Initial setup</li>
              <li>Prepare Supabase environment</li>
@@ -33,8 +33,7 @@
 <!-- ABOUT -->
 ## 📝 About
 
-More natural way to help students study for exams, review weekly content, and customize learnings to recreate similar problems etc to their prefernce. Trained on all Spring 2023 lectures. EE16B students, staff, and more generally anyone can 
-and use this repo and adjust to their liking.
+More natural way to help students study for exams, review weekly content, and customize learnings to recreate similar problems etc to their prefernce. Trained on all Spring 2023 lectures. EE16B students, staff, and more generally anyone can use this repo and adjust to their liking.
 
 _UC Berkeley 🐻🔵🟡 • EE16B: Designing Information Devices and Systems II ⚙️ • Spring 2023_ 
 
@@ -45,37 +44,36 @@ _UC Berkeley 🐻🔵🟡 • EE16B: Designing Information Devices and Systems I
 _Note: macOS version, adjust accordingly for Windows / Linux_
 
 ### Initial setup
-
-Clone this repo & install packages using pnpm
+Clone the repo and install dependencies.
 
 ```
-git clone https://github.com/vdutts7/ee16b-ai-chat
-cd ee16b-ai-chat
+git clone https://github.com/vdutts7/cs186-ai-chat
+cd cs186-ai-chat
 pnpm install
 ```
 
-Copy `.env.local.example` into `.env` which should look like this (order doesn't matter):
+Create a .env file and add your API keys (refer `.env.local.example` for this template):
 
 ```
 OPENAI_API_KEY=""
-
 NEXT_PUBLIC_SUPABASE_URL=""
 NEXT_PUBLIC_SUPABASE_ANON_KEY=""
 SUPABASE_SERVICE_ROLE_KEY=""
 ```
 
-Check out [OpenAI](https://help.openai.com/en/articles/4936850-where-do-i-find-my-secret-api-key) on how to get an API key
-
-Check out [Supabase](https://supabase.com/) on how to create a new project, database, and get keys from settings all found in [docs instructions](https://supabase.com/docs)
+Get API keys:
+- [OpenAI](https://help.openai.com/en/articles/4936850-where-do-i-find-my-secret-api-key)
+- [Supabase](https://supabase.com/docs) 
 
 _**IMPORTANT: Verify that `.gitignore` contains `.env` in it.**_
 
 
 ### Prepare Supabase environment
 
-I used Supabase as my vectorstore. Alternatives include: FAISS, Chroma, Nuclei, Pinecone, Milvus, and many more you can research about. Most are free or open-source. 
+I used Supabase as my vectorstore. _Alternatives: Pinecone, Qdrant, Weaviate, Chroma, etc_
 
-Copy paste contents of `schema.sql` in SQL editor of Supabase. Ensure the `documents` table in Supabase's database that is created matches and corresponds with local file's `match_documents` function.
+You should have already created a Supabase project to get your API keys. Inside the project's SQL editor, create a new query and run the `schema.sql`. You should now have a `documents` table created with 4 columns.
+
 
 
 ### Embedding & upserting data into Supabase vectorstore
