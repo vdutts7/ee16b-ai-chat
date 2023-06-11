@@ -25,7 +25,7 @@
             <li><a href=#technical-explanation>Technical explanation</a></li>
             <li><a href=#run-app>Run app</a></li>
         </ul>
-    <a href="#next-steps">➤ Next steps</a>
+    <a href="#next-steps">🚀 Next steps</a>
         <ul>
             <li><a href=#deploy>Deploy</a></li>
             <li><a href=#customizations>Customizations</a></li>
@@ -88,7 +88,7 @@ You should have already created a Supabase project to get your API keys. Inside 
 
 Inside the `config` folder is the `transcripts` folder with all lectures as .txt files and the corresponding JSON files for the metadatas. .txt files were scraped from the lecture recordings separately ahead of time but OpenAI's Whisper is a great package for Speech-to-Text transcription). Change according to preferences. `pageContent` and `metadata` are by default stored in Supabase along with an int8 type for the 'id' column.
 
-Manually run the `embed-scripts.ipynb` notebook in the `scripts` folder OR run the package script from terminal:
+Manually run the `embed-script.ipynb` notebook in the `scripts` folder OR run the package script from terminal:
 
 ```
 npm run embed
@@ -118,7 +118,7 @@ This code performs the following:
 ![visualized-flow-chart](https://github.com/vdutts7/ee16b-ai-chat/assets/63992417/ba77f59b-c6b7-4dc4-862b-948f2c751be9)
 
 
-### Run the app
+### Run app
 
 Run app and verify everything went smoothly:
 
@@ -149,8 +149,8 @@ _Alternatives: Heroku, Firebase, AWS Elastic Beanstalk, DigitalOcean, etc._
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-<!-- BUILT WITH -->
-## 🔧 Built With
+<!-- TOOLS USED -->
+## 🔧 Tools used
 [![Next][Next]][Next-url]
 [![Typescript][Typescript]][Typescript-url]
 [![Langchain][Langchain]][Langchain-url]
