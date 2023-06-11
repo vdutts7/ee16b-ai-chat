@@ -15,6 +15,8 @@
 ## Table of Contents
   <ol>
     <a href="#about">📝 About</a>
+        <ul>
+        </ul>
     <a href="#how-to-build">💻 How to build</a>
         <ul>
             <li><a href="#initial-setup">Initial setup</a></li>
@@ -29,6 +31,8 @@
             <li><a href=#customizations>Customizations</a></li>
         </ul>
     <a href="#tools-used">🔧 Tools used</a>
+        <ul>
+        </ul>
     <a href="#contact">👤 Contact</a>
   </ol>
 
