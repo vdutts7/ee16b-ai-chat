@@ -57,8 +57,8 @@ _Note: macOS version, adjust accordingly for Windows / Linux_
 Clone the repo and install dependencies.
 
 ```
-git clone https://github.com/vdutts7/cs186-ai-chat
-cd cs186-ai-chat
+git clone https://github.com/vdutts7/ee16b-ai-chat
+cd ee16b-ai-chat
 pnpm install
 ```
 
